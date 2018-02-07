@@ -1,5 +1,12 @@
 package com.stevenrowney.app
 
 object Main extends App {
-  println("Hello, World!")
+  
+  def sayHello(): String = {
+    "Hello!"  
+  }
+  
+  def sayHelloTo(name: String): String = {
+    s"Hello $name!"  
+  }
 }
